@@ -1,4 +1,4 @@
-import Image from 'next/image'
+"use client"
 import IpDisplay from './(components)/ip'
 import { IP } from './(types)/ip'
 
