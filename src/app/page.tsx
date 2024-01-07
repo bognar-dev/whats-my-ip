@@ -4,7 +4,7 @@ import { IP } from './(types)/ip'
 
 export default async function Home() {
   
-   const data = await fetch('https://api.my-ip.io/v2/ip.json')
+   const data = await fetch('https://api.my-ip.io/v2/ip.json',{cache:'no-store'})
   const ip = await data.json() as IP
  
   
