@@ -16,7 +16,7 @@ const Location = ({ ipInfo }: LocationProps) => {
         </div>
         <div className='flex gap-2 justify-items-start items-center'>
             <Compass />
-            <p className='font-bold text-3xl'>{ipInfo.region}</p>
+            <p className='font-bold text-3xl'>{ipInfo.country}</p>
             
         </div>
         

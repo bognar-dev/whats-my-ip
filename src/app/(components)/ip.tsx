@@ -9,8 +9,9 @@ interface IPProps {
 const IpDisplay: React.FC<IPProps> = ({ ipInfo}) => {
     return (
         <div className='flex flex-col gap-5 justify-center justify-items-center items-center'>
-            <p className=' p-5 font-extrabold text-4xl md:text-8xl'>{ipInfo.ip}</p>
+            <p className=' p-5 font-extrabold text-4xl md:text-8xl'>{ipInfo.query}</p>
            <Location ipInfo={ipInfo}/>
+           <p className='font-bold text-3xl'>{}</p>
         </div>
     );
 };
